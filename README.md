@@ -1,0 +1,1 @@
+# specfem2segy
