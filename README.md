@@ -28,7 +28,7 @@ Argument | Required | Description
 --stbeg | No  | Identification number for the first station in the ascii seismogram files. Defaults to 1.
 --stend | Yes |Identification number for the last station in the ascii seismogram files. You can use a number less than the number of seismogram files for smaller gathers
 --offbeg | Yes | Source-receiver offset (in km) for first station. Use negative values for stations to the west of the source.
---offend | Yes |Source-receiver offset (in km) for last station. Use positive values for stations to the west of the source.
+--offend | Yes |Source-receiver offset (in km) for last station. Use negative values for stations to the west of the source.
 --offsp | Yes | Spacing between adjacent stations (in km).
 --resamp | No | Resample rate for the output SEGY file. Defaults to 200 Hz.
 --plotpdf | No |Whether to plot a pdf file of the gather for checking. Use True for plotting. Defaults to False (pdf not plotted).
