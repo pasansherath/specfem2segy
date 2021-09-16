@@ -27,7 +27,9 @@ def write_to_segy(filename, stream, INLINE, delta=0.005):
     print ("{:s} file saved".format(filename))
 
 def traces_2_stream(folder, st_file_prefix, st_numbers, st_file_suffix, resample_rate, offsets, plot_pdf, outfile):
-
+    """
+    Function to read ascii seismograms files to an ObsPy stream
+    """
     file_names = np.array([])
     df = pd.DataFrame()
 
