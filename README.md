@@ -1,6 +1,6 @@
 # specfem2segy
 
-specfem2segy.py is a Python3 code that can be used to SEGY format common shot gathers from ascii format seismograms output into the OUTPUT_FILES folder by SPECFEM2D. 
+specfem2segy.py is a Python3 code for generating SEGY format common shot gathers from ascii format seismograms output into the OUTPUT_FILES folder by SPECFEM2D. 
 
 *Channel number and offset are the only SEGY trace headers assgined. Byte ordering is big endian.
 
@@ -17,7 +17,7 @@ For convenience, parameters required for generating the common shot gather in SE
 ## Usage: 
 <addr> python3 specfem2segy.py [arguments] 
     
-### Arguments 
+## Arguments:
     
 Argument | Required | Description
 -------|------|------ 
